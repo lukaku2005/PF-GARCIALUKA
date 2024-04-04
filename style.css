@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.menu-container{
+    display: flex;
+    color: black;
+    padding: 20px 0;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.yt:hover{
+    text-decoration: none;
+    color: white;
+}
+.ct:hover{
+    text-decoration: none;
+    color: white;
+}
+.in:hover{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+    display: flex;
+    border: 5px solid blueviolet;
+    width: 800px;
+    height: 60px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 5px;
+}
+
+.listacontenedor, .title{
+    margin: 20px;
+}
+.videocontenedor, footer{
+    margin: 100px;
+}
+.listacontenedor{
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    text-align: center;
+    color: blueviolet;
+    list-style: none;
+    background-color: black;
+    border: 5px solid blueviolet;
+    padding: 10px
+    
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+    border: 3px solid blueviolet;
+    width: 500px;
+}
+
+
+.photogridcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.photogrid{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.photogriditem{
+    width: 300px;
+    height: 300px;
+    padding: 10px; 
+    background: linear-gradient(to right, black, blueviolet); 
+}
+.foto{
+    width: 300px;
+}
+
+.videocontenedor{
+    display: flex;
+    justify-content: center;
+    
+}
+.video{
+    display: flex;
+    border: 10px dashed black;
+}
+
+.piecontenedor{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    border: 10px solid blueviolet;
+}
+
+
+.pie{
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tarjetacontenedor{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.botoncontenedor{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: blueviolet;
+    border: 3px solid blueviolet;
+    margin: 5px;
+    width: 150px;
+    padding: 5px;
+    transition: 1s;
+}
+.boton:hover{
+    width: 200px;
+}
+
+
+
+.precio{
+    display: flex;
+    color: black;
+    padding: 5px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: black;
+    background: linear-gradient(to right, black, blueviolet);
+}
+
+
+.pagos{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: blueviolet;
+    list-style: none;
+    border-color: blueviolet;
+    border: 5px solid;
+    padding: 10px;
+}
+
+
+.desccontenedor{
+    display: flex;
+    background-color: black;
+    color: blueviolet;
+    
+}
+.desc{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    border: 10px solid;
+    
+    
+}
+
+.espcontenedor{
+    display: flex;
+    justify-content: center;
+    
+}
+.esp{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    list-style: none;
+    color: blueviolet;
+    font-size: 20px;
+    border-color: blueviolet;
+    border: 10px solid;
+    padding: 10px;
+    
+}
+.espcontenedor, .tarjetacontenedo{
+    margin: 20px;
+}
+
+.redescontenedor{
+    display: flex;
+    justify-content: center;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: black;
+    color: blueviolet;
+    border: 5px solid;
+    border-color: blueviolet;
+    padding: 10px;}
+
+.generocontenedor{
+    display: flex;
+    justify-content: center;
+}
+.genero{
+    justify-content: space-between;
+    background-color: black;
+    color: blueviolet;
+    border: 5px solid;
+    border-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+}
+.mailcontenedor{
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: blueviolet;
+    border: 5px double;
+    border-color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+.nombrecontenedor{
+    display: flex;
+    justify-content: center;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: blueviolet;
+    border: 5px double;
+    border-color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+.reseñacontenedor{
+    display: flex;
+    justify-content: center;
+}
+.reseña{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: blueviolet;
+    border: 5px double;
+    border-color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+
+.fotostarjeta{
+    display: grid;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: auto;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img1 img1 img1 img2"
+                         "img1 img1 img1 img3"
+                         "img1 img1 img1 img4"
+                         
+    
+}
+.fotostarjeta img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid blueviolet;
+    transition: 1s;
+}
+.img1{
+    grid-area: img1;
+}
+.img2:hover{
+    transform: scale(1.2)
+}
+.img2{
+    grid-area: img2;
+}
+.img3:hover{
+    transform: scale(1.2)
+}
+.img3{
+    grid-area: img3;
+}
+.img4:hover{
+    transform: scale(1.2)
+}
+.img4{
+    grid-area: img4;
+}
+
+
+
+/*tamaños de pantalla a usar: 1200px, 1024px, 768px, 480px*/
