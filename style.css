@@ -339,8 +339,54 @@ h1{
 .img4{
     grid-area: img4;
 }
-
-@media (min-width: 450px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 450px){
+    .pie{
+        font-size: 10px;
+        margin: 20px;
+    }
+    .piecontenedor{
+        border: 1px solid blueviolet;
+    }
+    .desc{
+        border: 1px solid blueviolet;
+        font-size: 10px;  
+        overflow: hidden;
+    }
+    .desccontenedor{
+        width: 150px;
+        height: 400px;
+    }
+    .fotostarjeta{
+        width: 50%;
+        gap: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "img1 img1 img1"
+                            "img2 img2 img2"
+                            "img3 img3 img3"
+                            "img4 img4 img4";                    
+    }
+    .precio{
+        font-size: 15px;
+        margin: 50px;
+    }
+    .pagos{
+        font-size: 10px;
+        margin: 10px;
+        border: 1px solid blueviolet;
+    }
+    .esp{
+        font-size: 10px;
+        border: 1px solid blueviolet;
+    }
+}
+@media (min-width: 721px) and (max-width: 1080px){
+    .fotostarjeta{
+        width: 50%;
+        gap: 10px;
+    }
+}
+@media (min-width: 451px) and (max-width: 480px){
     .pie{
         font-size: 20px;
         margin: 50px;
