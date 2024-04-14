@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    border: $bordes-comunes;
+    width: 800px;
+    height: 60px;
+    justify-content: space-between;
+    background-color: $color-secundario;
+    align-items: center;
+    padding: 5px;
+}
+.menu-container{
+    display: flex;
+    color: $color-secundario;
+    padding: 20px 0;
+    justify-content: center;
+    li{
+        display: flex;
+        text-decoration: none;
+        gap: 10px;
+    }
+    .logo{
+        display: flex;
+        width: 50px;
+        align-items: center;
+    }
+} 
+.yt:hover{
+    text-decoration: none;
+    color: white;
+}
+.ct:hover{
+    text-decoration: none;
+    color: white;
+}
+.in:hover{
+    text-decoration: none;
+    color: white;
+}

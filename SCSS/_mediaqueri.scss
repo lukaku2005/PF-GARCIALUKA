@@ -1,0 +1,358 @@
+@media (min-width: 320px) and (max-width: 450px){
+    .title{
+        font-size: 10px;
+    }
+    .foto{
+        width: 200px;
+    }
+    .photogrid{
+        width: 200px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .photogriditem{
+        width: 200px;
+        height: 200px;
+    }
+    .video{
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .pie{
+        font-size: 15px;
+    }
+    .piecontenedor{
+        border: $bordes-media;
+    }
+    .fotostarjeta{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        img{
+            width: 100px;
+        }                 
+    }
+    .desccontenedor{
+        position: fixed;
+        left: -300px;
+        
+    }
+    .desc{
+        position: absolute;
+        width: 150px;
+        background-color: $color-secundario;
+        height: 350px;
+        overflow: hidden;
+        p{
+            color: $color-principal;
+        }
+    }
+    .icono-desc{
+        color: $color-icono;
+        font-size: 25px;
+        margin: 15px;
+        &:hover + .desccontenedor{
+            left: 20px;
+            transition: 1s;
+        }
+    }
+    .precio{
+        font-size: 20px;
+        margin: 50px;
+    }
+    .pagos{
+        font-size: 20px;
+        margin: 10px;
+        border: $bordes-media;
+    }
+    .esp{
+        font-size: 15px;
+        border: $bordes-media;
+    }
+}
+@media (min-width: 451px) and (max-width: 720px){
+    .title{
+        font-size: 15px;
+    }
+    .foto{
+        width: 250px;
+    }
+    .photogrid{
+        width: 250px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .photogriditem{
+        width: 250px;
+        height: 250px;
+    }
+    .video{
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .pie{
+        font-size: 20px;
+    }
+    .piecontenedor{
+        border: $bordes-media;
+        padding: 10px;
+    }
+    .fotostarjeta{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        img{
+            width: 150px;
+        }                 
+    }
+    .desccontenedor{
+        position: fixed;
+        left: -300px;
+        
+    }
+    .desc{
+        position: absolute;
+        width: 200px;
+        background-color: $color-secundario;
+        height: 300px;
+        overflow: hidden;
+        p{
+            color: $color-principal;
+        }
+    }
+    .icono-desc{
+        color: $color-icono;
+        font-size: 35px;
+        margin: 20px;
+        &:hover + .desccontenedor{
+            left: 20px;
+            transition: 1s;
+        }
+    }
+    .precio{
+        font-size: 30px;
+        margin: 70px;
+    }
+    .pagos{
+        font-size: 25px;
+        margin: 25px;
+        border: $bordes-media;
+    }
+    .esp{
+        font-size: 20px;
+        border: $bordes-media;
+    }
+}
+@media (min-width: 721px) and (max-width: 1080px){
+    .title{
+        font-size: 20px;
+    }
+    .foto{
+        width: 300px;
+    }
+    .photogrid{
+        width: 300px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .photogriditem{
+        width: 300px;
+        height: 300px;
+    }
+    .video{
+        width: 450px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .pie{
+        font-size: 25px;
+    }
+    .piecontenedor{
+        border: $bordes-media;
+        padding: 15px;
+    }
+    .fotostarjeta{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        
+        img{
+            width: 250px;
+        }                 
+    }
+    .desccontenedor{
+        position: fixed;
+        left: -400px;
+    }
+    .desc{
+        position: absolute;
+        width: 400px;
+        background-color: $color-secundario;
+        height: 400px;
+        overflow: hidden;
+        p{
+            color: $color-principal;
+        }
+    }
+    .icono-desc{
+        color: $color-icono;
+        font-size: 70px;
+        margin: 50px;
+        &:hover + .desccontenedor{
+            left: 20px;
+            transition: 1s;
+        }
+    }
+    .precio{
+        font-size: 30px;
+        margin: 10px;
+        margin-top: 100px;
+    }
+    .pagos{
+        font-size: 25px;
+        margin: 20px;
+        border: $bordes-media;
+        margin-top: 100px;
+    }
+    .esp{
+        font-size: 30px;
+        border: $bordes-media;
+    }
+    .espcontenedor{
+        margin-top: 300px;
+    }
+}
+@media (min-width: 1081px) and (max-width: 1440px){
+    .photogrid{
+        margin: 60px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .photogriditem{
+        width: 350px;
+        height: 350px;
+        padding: 10px; 
+        background: $bordes-especiales; 
+    }
+    .foto{
+        width: 350px;
+    }
+    .fotostarjeta{
+        width: 700px;
+        height: 500px;
+        margin: 50px;
+        padding: 20px;
+        gap: 20px;
+    }
+    .desccontenedor{
+        margin: auto;
+    }
+    .desc{
+        width: 450px;
+        background-color: $color-secundario;
+        height: 450px;
+        overflow: hidden;
+        p{
+            color: $color-principal;
+        }
+    }
+    .precio{
+        font-size: 30px;
+        margin: 10px;
+        margin-top: 100px;
+    }
+    .pagos{
+        font-size: 25px;
+        margin: 20px;
+        border: $bordes-media;
+        margin-top: 100px;
+    }
+    .esp{
+        font-size: 30px;
+        border: $bordes-media;
+    }
+    .espcontenedor{
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1441px){
+    .title{
+        font-size: 20px;
+    }
+    .lista{
+        font-size: 20px;
+    }
+    .photogrid{
+        margin: 100px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .photogriditem{
+        width: 450px;
+        height: 450px;
+        padding: 10px; 
+        background: $bordes-especiales; 
+    }
+    .foto{
+        width: 450px;
+    }
+    .video{
+        width: 700px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .pie{
+        font-size: 40px;
+    }
+    .piecontenedor{
+        border: $bordes-comunes;
+        padding: 20px;
+    }
+    .fotostarjeta{
+        width: 800px;
+        height: 600px;
+        margin: 50px;
+        padding: 20px;
+        gap: 20px;
+    }
+    .desccontenedor{
+        margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .desc{
+        width: 450px;
+        background-color: $color-secundario;
+        height: 450px;
+        overflow: hidden;
+        p{
+            color: $color-principal;
+            font-size: 20px;
+        }
+    }
+    .precio{
+        font-size: 30px;
+        margin: 10px;
+        margin-top: 100px;
+    }
+    .pagos{
+        font-size: 30px;
+        margin: 20px;
+        border: $bordes-comunes;
+        margin-top: 100px;
+    }
+    .esp{
+        font-size: 30px;
+        border: $bordes-comunes;
+    }
+    .espcontenedor{
+        margin-top: 50px;
+    }
+}        

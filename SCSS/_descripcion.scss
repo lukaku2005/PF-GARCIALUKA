@@ -1,0 +1,15 @@
+.desccontenedor{
+    display: flex;
+    background-color: $color-secundario;
+    color: $color-principal;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    border: 10px solid;
+}
+.icono-desc{
+    color: transparent;    
+}

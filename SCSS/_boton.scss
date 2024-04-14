@@ -1,0 +1,21 @@
+.botoncontenedor{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: $color-secundario;
+    color: $color-principal;
+    border: $bordes-comunes;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    transition: 1s;
+    &:hover{
+        width: 200px;
+    }
+}
+

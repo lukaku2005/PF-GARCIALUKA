@@ -1,0 +1,21 @@
+.pagos{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    font-size: 20px;
+    background-color: $color-secundario;
+    color: $color-principal;
+    list-style: none;
+    border-color: $color-principal;
+    border: $bordes-comunes;
+    padding: 10px;
+}
+.precio{
+    display: flex;
+    color: $color-secundario;
+    padding: 5px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: $color-secundario;
+    background: $bordes-especiales;
+}

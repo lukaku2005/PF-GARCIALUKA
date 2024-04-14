@@ -1,0 +1,16 @@
+.espcontenedor{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.esp{
+    display: flex;
+    flex-direction: column;
+    background-color: $color-secundario;
+    list-style: none;
+    color: $color-principal;
+    font-size: 20px;
+    border-color: $color-principal;
+    border: $bordes-comunes;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    h1{
+        text-align: center;
+        color: $color-principal;
+        background-color: $color-secundario;
+        border: $bordes-comunes;
+        width: 500px;
+    }
+}
+
+.listacontenedor{
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    text-align: center;
+    color: $color-principal;
+    list-style: none;
+    background-color: $color-secundario;
+    border: $bordes-comunes;
+    padding: 10px;  
+}

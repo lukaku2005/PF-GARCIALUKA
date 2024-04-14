@@ -1,0 +1,41 @@
+.tarjetacontenedor{
+    display: flex;
+    justify-content: center;
+}
+.fotostarjeta{
+    display: grid;
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+    padding: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "img1 img1 img1 img2"
+                         "img1 img1 img1 img3";
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: $bordes-comunes;
+        transition: 1s 
+    }
+}
+.img1{
+    grid-area: img1;
+    &:hover{
+        transform: scale(1.2)
+    }
+}
+.img2{
+    grid-area: img2;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+.img3{
+    grid-area: img3;
+    &:hover{
+        transform: scale(1.2)
+    }
+}

@@ -1,0 +1,11 @@
+.piecontenedor{
+    display: flex;
+    justify-content: center;
+    background-color: $color-secundario;
+    border: $bordes-comunes;
+}
+.pie{
+    color: $color-principal;
+    text-align: center;
+    font-size: 30px;
+}
