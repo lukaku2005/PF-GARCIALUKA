@@ -5,12 +5,12 @@
     .foto{
         width: 200px;
     }
-    .photogrid{
+    .photo-grid{
         width: 200px;
         margin-top: 0;
         margin-bottom: 0;
     }
-    .photogriditem{
+    .photo-grid-item{
         width: 200px;
         height: 200px;
     }
@@ -22,10 +22,10 @@
     .pie{
         font-size: 15px;
     }
-    .piecontenedor{
+    .pie-contenedor{
         border: $bordes-media;
     }
-    .fotostarjeta{
+    .fotos-tarjeta{
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -35,12 +35,12 @@
             width: 100px;
         }                 
     }
-    .desccontenedor{
+    .descripcion-contenedor{
         position: fixed;
         left: -300px;
         
     }
-    .desc{
+    .descripcion{
         position: absolute;
         width: 150px;
         background-color: $color-secundario;
@@ -50,7 +50,7 @@
             color: $color-principal;
         }
     }
-    .icono-desc{
+    .icono-descripcion{
         color: $color-icono;
         font-size: 25px;
         margin: 15px;
@@ -68,9 +68,21 @@
         margin: 10px;
         border: $bordes-media;
     }
-    .esp{
+    .especificaiones{
         font-size: 15px;
         border: $bordes-media;
+    }
+    .formularios{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .opiniones-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 }
 @media (min-width: 451px) and (max-width: 720px){
@@ -80,12 +92,12 @@
     .foto{
         width: 250px;
     }
-    .photogrid{
+    .photo-grid{
         width: 250px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .photogriditem{
+    .photo-grid-item{
         width: 250px;
         height: 250px;
     }
@@ -97,11 +109,11 @@
     .pie{
         font-size: 20px;
     }
-    .piecontenedor{
+    .pie-contenedor{
         border: $bordes-media;
         padding: 10px;
     }
-    .fotostarjeta{
+    .fotos-tarjeta{
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -111,12 +123,12 @@
             width: 150px;
         }                 
     }
-    .desccontenedor{
+    .descripcion-contenedor{
         position: fixed;
         left: -300px;
         
     }
-    .desc{
+    .descripcion{
         position: absolute;
         width: 200px;
         background-color: $color-secundario;
@@ -126,11 +138,11 @@
             color: $color-principal;
         }
     }
-    .icono-desc{
+    .icono-descripcion{
         color: $color-icono;
         font-size: 35px;
         margin: 20px;
-        &:hover + .desccontenedor{
+        &:hover + .descripcion-contenedor{
             left: 20px;
             transition: 1s;
         }
@@ -144,9 +156,21 @@
         margin: 25px;
         border: $bordes-media;
     }
-    .esp{
+    .especificaiones{
         font-size: 20px;
         border: $bordes-media;
+    }
+    .formularios{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .opiniones-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 }
 @media (min-width: 721px) and (max-width: 1080px){
@@ -156,12 +180,12 @@
     .foto{
         width: 300px;
     }
-    .photogrid{
+    .photo-grid{
         width: 300px;
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    .photogriditem{
+    .photo-grid-item{
         width: 300px;
         height: 300px;
     }
@@ -173,25 +197,24 @@
     .pie{
         font-size: 25px;
     }
-    .piecontenedor{
+    .pie-contenedor{
         border: $bordes-media;
         padding: 15px;
     }
-    .fotostarjeta{
+    .fotos-tarjeta{
         align-items: center;
         display: flex;
         flex-direction: column;
         margin: 50px;
-        
         img{
             width: 250px;
         }                 
     }
-    .desccontenedor{
+    .descripcion-contenedor{
         position: fixed;
         left: -400px;
     }
-    .desc{
+    .descripcion{
         position: absolute;
         width: 400px;
         background-color: $color-secundario;
@@ -201,11 +224,11 @@
             color: $color-principal;
         }
     }
-    .icono-desc{
+    .icono-descripcion{
         color: $color-icono;
         font-size: 70px;
         margin: 50px;
-        &:hover + .desccontenedor{
+        &:hover + .descripcion-contenedor{
             left: 20px;
             transition: 1s;
         }
@@ -221,21 +244,33 @@
         border: $bordes-media;
         margin-top: 100px;
     }
-    .esp{
+    .especificaiones{
         font-size: 30px;
         border: $bordes-media;
     }
-    .espcontenedor{
+    .especificaciones-contenedor{
         margin-top: 300px;
+    }
+    .formularios{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .opiniones-contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 }
 @media (min-width: 1081px) and (max-width: 1440px){
-    .photogrid{
+    .photo-grid{
         margin: 60px;
         margin-bottom: 50px;
         margin-top: 50px;
     }
-    .photogriditem{
+    .photo-grid-item{
         width: 350px;
         height: 350px;
         padding: 10px; 
@@ -244,17 +279,17 @@
     .foto{
         width: 350px;
     }
-    .fotostarjeta{
+    .fotos-tarjeta{
         width: 700px;
         height: 500px;
         margin: 50px;
         padding: 20px;
         gap: 20px;
     }
-    .desccontenedor{
+    .descripcion-contenedor{
         margin: auto;
     }
-    .desc{
+    .descripcion{
         width: 450px;
         background-color: $color-secundario;
         height: 450px;
@@ -274,13 +309,17 @@
         border: $bordes-media;
         margin-top: 100px;
     }
-    .esp{
+    .especificaiones{
         font-size: 30px;
         border: $bordes-media;
     }
-    .espcontenedor{
+    .especificaiones-contenedor{
         margin-top: 50px;
     }
+    .formularios{
+        margin-left: 200px;
+    }
+    
 }
 @media (min-width: 1441px){
     .title{
@@ -289,12 +328,12 @@
     .lista{
         font-size: 20px;
     }
-    .photogrid{
+    .photo-grid{
         margin: 100px;
         margin-bottom: 100px;
         margin-top: 100px;
     }
-    .photogriditem{
+    .photo-grid-item{
         width: 450px;
         height: 450px;
         padding: 10px; 
@@ -311,23 +350,23 @@
     .pie{
         font-size: 40px;
     }
-    .piecontenedor{
+    .pie-contenedor{
         border: $bordes-comunes;
         padding: 20px;
     }
-    .fotostarjeta{
+    .fotos-tarjeta{
         width: 800px;
         height: 600px;
         margin: 50px;
         padding: 20px;
         gap: 20px;
     }
-    .desccontenedor{
+    .descripcion-contenedor{
         margin: auto;
         margin-left: 0;
         margin-right: 0;
     }
-    .desc{
+    .descripcion{
         width: 450px;
         background-color: $color-secundario;
         height: 450px;
@@ -352,7 +391,7 @@
         font-size: 30px;
         border: $bordes-comunes;
     }
-    .espcontenedor{
+    .especificaiones-contenedor{
         margin-top: 50px;
     }
 }        

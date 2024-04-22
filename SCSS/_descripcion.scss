@@ -1,15 +1,15 @@
-.desccontenedor{
+.descripcion-contenedor{
     display: flex;
     background-color: $color-secundario;
     color: $color-principal;
 }
-.desc{
+.descripcion{
     display: flex;
     align-items: center;
     text-align: center;
     max-width: 300px;
     border: 10px solid;
 }
-.icono-desc{
+.icono-descripcion{
     color: transparent;    
 }

@@ -1,4 +1,4 @@
-.redescontenedor{
+.redes-contenedor{
     display: flex;
     justify-content: center;
 }
@@ -9,23 +9,28 @@
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
-    padding: 10px;}
-
-.generocontenedor{
+    padding: 10px;
+}
+.formularios{
+    width: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    display: inline-block;
+    margin-left: 300px;
+}
+.genero-contenedor{
+    display: flex;
 }
 .genero{
     justify-content: space-between;
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
-    margin: 10px;
-    padding: 10px;
+    margin: 15px;
+    padding: 15px;
 }
-.mailcontenedor{
+.mail-contenedor{
     display: flex;
-    justify-content: center;
 }
 .mail{
     display: flex;
@@ -34,12 +39,11 @@
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
 }
-.nombrecontenedor{
+.nombre-contenedor{
     display: flex;
-    justify-content: center;
 }
 .nombre{
     display: flex;
@@ -48,12 +52,11 @@
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
 }
-.reseñacontenedor{
+.reseña-contenedor{
     display: flex;
-    justify-content: center;
 }
 .reseña{
     display: flex;
@@ -62,6 +65,36 @@
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
 }
+
+.opiniones-contenedor{
+    display: flex;
+    background-color: $color-secundario;
+    border: $bordes-comunes;
+    color: $color-principal;
+    padding: 10px;
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    display: inline-block;
+    overflow-y: auto;
+}
+.opiniones{
+    text-align: center;
+}
+.opinion{
+    p{
+        font-size: 15px;
+    }
+   img{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+   }
+}
+

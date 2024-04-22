@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
 </head>
-
-
 <body>
     
     <header>
@@ -30,7 +29,7 @@
         </section>
     </header>
     <main>
-        <section class="redescontenedor">
+        <section class="redes-contenedor">
             <ul class="redes">
                 <li>Mail:</li>
                 <li>Telefono:</li>
@@ -40,38 +39,57 @@
                 <li>Twitter:</li>
             </ul>
         </section>
-        <section class="generocontenedor">
-            <div class="genero">
-                <label for="">Masculino</label>
-                <input type="radio" name="Sexo" id="">
-                <label for="">Femenino</label>
-                <input type="radio" name="Sexo" id="">
-                <label for="">Otro</label>
-                <input type="radio" name="Sexo" id="">
+        <section class="formularios">
+            <section class="genero-contenedor">
+                <div class="genero">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="Sexo" id="">
+                    <label for="">Femenino</label>
+                    <input type="radio" name="Sexo" id="">
+                    <label for="">Otro</label>
+                    <input type="radio" name="Sexo" id="">
+                </div>
+            </section>
+            <section class="mail-contenedor">
+                <div class="mail">
+                    <label for="Email">Email</label>
+                    <input type="Email" name="Email">
+                </div>
+            </section>
+            <section class="nombre-contenedor">
+                <div class="nombre">
+                    <label for="Nombre-apellido">Nombre y apellido</label>
+                    <input type="text" name="Nombre-apellido">
+                </div>
+            </section>
+            <section class="reseña-contenedor">
+                <div class="reseña">
+                    <label for="Reseña">Deja tu reseña</label>
+                    <textarea name="Reseña"></textarea>
+                    <button class="Enviar" type="submit">Enviar</button>
+                </div>
+            </section>
+        </section>
+        <section class="opiniones-contenedor">
+            <div class="opiniones">
+                <div class="opinion">
+                    <img src="./img/persona1.png" alt="" class="persona">
+                    <h3>Nombre:Juan G.</h3>
+                    <p>¡Increíble servicio! Compré una tarjeta gráfica para mi PC de juegos y la experiencia fue impecable. El envío fue rápido y el producto llegó en perfectas condiciones. Definitivamente volveré a comprar aquí para mis futuras actualizaciones.</p>
+                </div>
+                <div class="opinion">
+                    <img src="./img/persona2.png" alt="" class="persona">
+                    <h3>Nombre:Maxi R.</h3>
+                    <p>Excelente atención al cliente! Tuve algunas dudas sobre qué placa madre era la mejor opción para mi PC de edición de video y el equipo de soporte fue extremadamente servicial. Me guiaron a través de las diferentes opciones y me ayudaron a tomar la mejor decisión. El producto llegó a tiempo y estoy muy contenta con mi compra.</p>
+                </div>
+                <div class="opinion">
+                    <img src="./img/persona3.png" alt="" class="persona">
+                    <h3>Nombre: Lucas C.</h3>
+                    <p>He sido cliente de esta tienda durante años y nunca me han decepcionado. Esta vez compré un kit de memoria RAM para mi PC de trabajo y como siempre, la calidad del producto y la rapidez en la entrega fueron excepcionales. ¡Gracias por mantener altos estándares de servicio!</p>
+                </div>
             </div>
         </section>
-        <section class="mailcontenedor">
-            <div class="mail">
-                <label for="Email">Email</label>
-                <input type="Email" name="Email">
-            </div>
-        </section>
-        <section class="nombrecontenedor">
-            <div class="nombre">
-                <label for="Nombre-apellido">Nombre y apellido</label>
-                <input type="text" name="Nombre-apellido">
-            </div>
-        </section>
-        <section class="reseñacontenedor">
-            <div class="reseña">
-                <label for="Reseña">Deja tu reseña</label>
-                <textarea name="Reseña"></textarea>
-            </div>
-        </section>
-        
-        
-    </main>
-    <section class="piecontenedor">
+    <section class="pie-contenedor">
         <footer class="pie">
             <p>Redes sociales @ @ @</p>
             <p>Soporte tecnico</p>
@@ -81,5 +99,6 @@
             <p>sabados, domingos y feriados cerrado</p>
         </footer>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
