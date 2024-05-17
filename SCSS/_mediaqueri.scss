@@ -1,7 +1,10 @@
 @media (min-width: 320px) and (max-width: 450px){
     .title{
-        font-size: 10px;
+        h1{
+            font-size: 15px;
+        }
     }
+   
     .foto{
         width: 200px;
     }
@@ -13,6 +16,14 @@
     .photo-grid-item{
         width: 200px;
         height: 200px;
+    }
+    .boton{
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+        &:hover{
+            width: 150px;
+        }
     }
     .video{
         width: 250px;
@@ -87,7 +98,9 @@
 }
 @media (min-width: 451px) and (max-width: 720px){
     .title{
-        font-size: 15px;
+        h1{
+            font-size: 20px;
+        }
     }
     .foto{
         width: 250px;
@@ -100,6 +113,14 @@
     .photo-grid-item{
         width: 250px;
         height: 250px;
+    }
+    .boton{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        &:hover{
+            width: 200px;
+        }
     }
     .video{
         width: 350px;
@@ -175,7 +196,9 @@
 }
 @media (min-width: 721px) and (max-width: 1080px){
     .title{
-        font-size: 20px;
+        h1{
+            font-size: 25px;
+        }
     }
     .foto{
         width: 300px;
@@ -188,6 +211,14 @@
     .photo-grid-item{
         width: 300px;
         height: 300px;
+    }
+    .boton{
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+        &:hover{
+            width: 250px;
+        }
     }
     .video{
         width: 450px;
@@ -323,10 +354,12 @@
 }
 @media (min-width: 1441px){
     .title{
-        font-size: 20px;
+        h1{
+            font-size: 50px;
+        }
     }
     .lista{
-        font-size: 20px;
+        font-size: 25px;
     }
     .photo-grid{
         margin: 100px;

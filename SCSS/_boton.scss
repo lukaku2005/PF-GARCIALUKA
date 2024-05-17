@@ -5,17 +5,19 @@
 .boton{
     display: flex;
     text-align: center;
+    justify-content: center;
     flex-direction: column;
     background-color: $color-secundario;
     color: $color-principal;
     border: $bordes-comunes;
+    font-size: 20px;
     margin: 10px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 70px;
     padding: 5px;
     transition: 1s;
     &:hover{
-        width: 200px;
+        width: 300px;
     }
 }
 

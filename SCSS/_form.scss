@@ -10,6 +10,7 @@
     color: $color-principal;
     border: $bordes-comunes;
     padding: 10px;
+    font-size: 25px;
 }
 .formularios{
     width: auto;
@@ -28,6 +29,7 @@
     border: $bordes-comunes;
     margin: 15px;
     padding: 15px;
+    font-size: 20px;
 }
 .mail-contenedor{
     display: flex;
@@ -41,6 +43,7 @@
     border: $bordes-comunes;
     margin: 15px;
     padding: 10px;
+    font-size: 20px;
 }
 .nombre-contenedor{
     display: flex;
@@ -54,6 +57,7 @@
     border: $bordes-comunes;
     margin: 15px;
     padding: 10px;
+    font-size: 20px;
 }
 .reseña-contenedor{
     display: flex;
@@ -68,6 +72,7 @@
     margin: 15px;
     padding: 10px;
     gap: 10px;
+    font-size: 20px;
 }
 
 .opiniones-contenedor{
@@ -78,16 +83,18 @@
     padding: 10px;
     width: 50%;
     height: 350px;
-    margin: auto;
+    margin-top: 10px;
     display: inline-block;
     overflow-y: auto;
+    
 }
 .opiniones{
     text-align: center;
+    
 }
 .opinion{
     p{
-        font-size: 15px;
+        font-size: 20px;
     }
    img{
     background-color: white;
@@ -97,4 +104,5 @@
     border-radius: 10px;
    }
 }
+
 

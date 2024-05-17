@@ -8,7 +8,9 @@
     margin: 200px;
     margin-bottom: 100px;
     margin-top: 100px;
+    perspective: 1000px;
 }
+
 .photo-grid-container{
     display: inline;
     display: flex;
@@ -22,6 +24,11 @@
     height: 300px;
     padding: 10px; 
     background: $bordes-especiales; 
+    transition: 1s;
+    
+    &:hover{
+        transform: rotatex(360deg);
+    }
 }
 .foto{
     width: 300px;
